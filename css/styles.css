@@ -674,6 +674,9 @@ ol {
   position: relative;
 }
 
+.modal-texterea {
+  margin-bottom: 16px;
+}
 .modal-input {
   width: 100%;
   height: 40px;
@@ -782,7 +785,7 @@ ol {
 }
 
 .check-box {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .check-text span {
