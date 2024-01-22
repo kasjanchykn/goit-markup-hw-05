@@ -657,7 +657,7 @@ ol {
 }
 
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-label {
@@ -767,9 +767,6 @@ ol {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  /* display: flex;
-  align-items: center;
-} */
 }
 .check-input {
 }
@@ -809,14 +806,8 @@ ol {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.check-input:checked + .span-form {
+.check-input:checked .span-form {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
-/* 
-.modal-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
