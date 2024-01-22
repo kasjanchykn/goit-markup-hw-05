@@ -421,7 +421,6 @@ ol {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 .footer-section {
   margin-right: 120px;
@@ -446,6 +445,9 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+.footer-soc-container {
+  margin-right: 80px;
 }
 
 .footer-media {
@@ -489,6 +491,69 @@ ol {
 }
 .footer-image {
   fill: #f4f4fd;
+}
+.subscribe {
+  margin-right: auto;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-subscribe {
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: #2e2f42;
+  padding-left: 16px;
+  margin-right: 24px;
+  color: #ffffff;
+}
+
+.footer-input::placeholder {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.footer-imag {
+  margin-left: 16px;
+}
+.footer-subscribe-btn {
+  border-radius: 4px;
+  background: #4d5ae5;
+  padding: 8px 24px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  background-color: #404bbf;
 }
 
 /* Модальне вікно і форма */
@@ -542,6 +607,7 @@ ol {
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .modal-close-btn:hover,
@@ -626,7 +692,13 @@ ol {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
-  /* margin: 0 120px 20px 119px; */
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-btn:hover,
+.modal-form-btn:focus {
+  background-color: #404bbf;
 }
 
 .model-text::placeholder {
