@@ -657,7 +657,7 @@ ol {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-label {
@@ -782,7 +782,7 @@ ol {
 }
 
 .check-box {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .check-text span {
@@ -806,7 +806,7 @@ ol {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.check-input:checked .span-form {
+.check-input:checked + .check-text .span-form {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
